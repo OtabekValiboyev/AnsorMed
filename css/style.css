@@ -104,6 +104,7 @@ img {
   color: #fff;
   background-color: var(--accent-color);
 }
+
 /*
 .button-bg-red {
   display: inline-flex;
@@ -195,3 +196,45 @@ img {
 .logo:active {
   opacity: 0.6;
 }
+
+
+/* SITE-HERO */
+.hero {
+  padding-top: 29px;
+  background-color: var(--accent-bg-color);
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__inner {
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+}
+
+.hero__heading {
+  white-space: nowrap;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  font-size: 36px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 36px;
+  width: 100%;
+  max-width: 440px;
+  font-size: 18px;
+}
+
+.button {}
+
+.button-bg-red {}
+
+.hero__img {}
