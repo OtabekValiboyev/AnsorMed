@@ -119,6 +119,12 @@ img {
   opacity: 0.6;
 }
 
+.button-transparent {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
 
 /* SITENAV */
 .sitenav__list {
