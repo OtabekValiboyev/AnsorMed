@@ -1,3 +1,31 @@
+  /* CUSTOM PROPS */
+:root {
+  --accent-color: #DE2E54;
+  --accent-bg-color: #0EB4C1;
+  --text-color: #444;
+  --heading-color: #222;
+}
+
+
+  /* FONT-FACE */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/OpenSansCondensed-Regular.woff2') format('woff2'),
+      url('../fonts/OpenSansCondensed-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+      url('../fonts/OpenSansCondensed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;
