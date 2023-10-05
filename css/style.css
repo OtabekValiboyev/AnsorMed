@@ -417,6 +417,19 @@ img {
   .hero__text {
     font-size: 14px;
   }
+
+  .services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .services__heading {
+    font-size: 24px;
+  }
+
+  .services__item--text {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -437,11 +450,25 @@ img {
   .hero__img {
     width: 75%;
   }
+
+  .services__item {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .services__img {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .button {
     padding: 8px 20px;
     font-size: 12px;
+  }
+
+  .services__item:not(last-child) {
+    margin-bottom: 50px;
   }
 }
