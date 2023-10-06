@@ -399,6 +399,11 @@ img {
 
 
 @media only screen and (max-width: 1024px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .hero__inner {
     width: 50%;
   }
@@ -430,14 +435,17 @@ img {
   .services__item--text {
     font-size: 14px;
   }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .hero__container {
     flex-direction: column;
   }
@@ -482,6 +490,21 @@ img {
   .promo__button-wrap .button:not(:last-child) {
     margin-bottom: 24px;
   }
+
+  .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__item{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .footer__item:not(:last-child) {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -496,5 +519,16 @@ img {
 
   .promo__heading {
     font-size: 24px;
+  }
+}
+
+@media only screen and  (max-width: 330px) {
+  .footer__list {
+    flex-direction: column;
+  }
+
+  .footer__item:last-child {
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }
