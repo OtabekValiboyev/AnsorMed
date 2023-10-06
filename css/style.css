@@ -433,6 +433,11 @@ img {
 }
 
 @media only screen and (max-width: 650px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .hero__container {
     flex-direction: column;
   }
@@ -460,6 +465,23 @@ img {
   .services__img {
     margin-right: 0;
   }
+
+  .promo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .promo__heading {
+    font-size: 30px;
+  }
+
+  .promo__button-wrap {
+    flex-direction: column;
+  }
+
+  .promo__button-wrap .button:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -470,5 +492,9 @@ img {
 
   .services__item:not(last-child) {
     margin-bottom: 50px;
+  }
+
+  .promo__heading {
+    font-size: 24px;
   }
 }
