@@ -38,7 +38,7 @@
       </a>
 
       <!-- SITENAV -->
-      <nav class="sitenav">
+      <nav class="sitenav sitenav--open">
         <ul class="sitenav__list">
           <li class="sitenav__item"><a href="#" class="sitenav__link">Xizmatlar</a></li>
           <li class="sitenav__item"><a href="#" class="sitenav__link">Dorilar</a></li>
@@ -48,7 +48,12 @@
         </ul>
       </nav>
 
-      <a class="button" href="#">Qabulga yozilish</a>
+      <div class="header__button-wrapper">
+        <a class="button" href="#">Qabulga yozilish</a>
+      </div>
+
+      <!-- SITENAV-BUTTON -->
+      <button class="button sitenav-menu js-sitenav-menu" type="button">menu</button>
     </div>
   </header>
 
@@ -167,6 +172,8 @@
       </ul>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
